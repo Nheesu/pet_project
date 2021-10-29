@@ -5,7 +5,7 @@ import random
 
 def findCategory(num):
     request_url = "http://api.kcisa.kr/openapi/service/rest/convergence2019/getConver03"
-    serviceKey = 'f058717d-f5bf-489b-b678-dcdd796a5d85'
+    serviceKey = '서비스키 값'
     categories = []
     headers = {
         'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'
